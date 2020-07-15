@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>edit</title>
+</head>
+<body>
+<p>Add items</p>
+<form method="POST" action="/update/{{.index}}">
+	<input type="text" value="{{.title.Name}}" name="item" required>
+	<input type="submit" name="submit">
+</form>
+</body>
+</html>
